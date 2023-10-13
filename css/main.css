@@ -173,7 +173,7 @@ body .header img {
 .landing .bg {
     z-index: -1;
     position: absolute;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.webp);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,7 +331,7 @@ body .header img {
     padding-bottom: 10px;
     display: flex;
     align-items: center;
-    background-image: url(../images/bg1.jpg);
+    background-image: url(../images/bg.webp);
     width: 100%;
     min-height: 308px;
     margin-top: 80px;
