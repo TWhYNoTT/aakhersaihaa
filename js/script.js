@@ -1,24 +1,7 @@
 
 window.addEventListener("load", () => {
 
-    const regBTN = document.querySelectorAll('a');
-    regBTN.forEach(ele => {
-        ele.addEventListener('click', () => {
-            gtag_report_conversion();
-        })
-    })
-    function gtag_report_conversion(url) {
-        var callback = function () {
-            if (typeof (url) != 'undefined') {
-                window.location = url;
-            }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-11373139502/NwBfCNjDu-wYEK6ska8q',
-            'event_callback': callback
-        });
-        return false;
-    }
+
     const stakeCards = document.querySelectorAll('.stakeholder-card');
     const leftArrows = document.querySelector('.left-arrow-s');
     const rightArrows = document.querySelector('.right-arrow-s');
