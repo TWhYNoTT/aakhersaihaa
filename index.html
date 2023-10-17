@@ -2,43 +2,9 @@
 <html dir="rtl" lang="ar" class="no-touch">
 
 <head>
-    <!-- TrafficGuard Integration -->
-    <script>
-        var dataTrafficGuard = dataTrafficGuard || [];
-        dataTrafficGuard.push(['property', 'tg-011482-001']);
-        dataTrafficGuard.push(['event', 'pageview']);
-        (function () { var tg = document.createElement('script'); tg.type = 'text/javascript'; tg.async = true; tg.src = '//tgtag.io/tg.js?pid=tg-011482-001'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tg, s); })();
-    </script>
-    <noscript><img src="//p.tgtag.io/event?property_id=tg-011482-001&event_name=pageview&no_script=1" width="1"
-            height="1" border="0" /></noscript>
-    <!-- TrafficGuard End-->
 
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11375770391"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
-        gtag('config', 'AW-11375770391');
-    </script>
-    <!-- Event snippet for Contact conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-    <script>
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-11375770391/_BegCM3qvOwYEJf2sbAq',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -50,6 +16,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TKR6LK34');</script>
     <!-- End Google Tag Manager -->
+
 
 
     <meta name="google-site-verification" content="9ELyQaTatfZiybSz6Pfgc405_-LNQJJtwu19K80BifQ" />
@@ -71,14 +38,18 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 
 
+
+
+
+
+
+
+
 </head>
 
 <body>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKR6LK34" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+
 
 
 
@@ -88,10 +59,12 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         <div class="container">
 
             <div class="logo-container">
-                <img class="logo" src="./images/logo01.webp" alt="Logo">
+                <div>
+                    <img loading="lazy" class="logo" src="./images/logo01.webp" alt="Logo">
+                </div>
             </div>
             <div class="menu">
-                <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                     href="https://wa.me/+966506581346">
                     <div class="contact-button register-button" role="button">
                         تواصل معنا
@@ -105,48 +78,53 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         <div class="bg"></div>
         <div class="container">
             <div class="sub-container">
-                <h1 style="text-align: center;"> <img class="logo" src="./images/logo.webp" alt="Logo">
+                <h1 style="visibility: hidden;position: absolute;">اخر صيحه</h1>
+                <h1 style="display: flex;justify-content: center;">
+                    <div><img loading="lazy" class="logo" src="./images/logo.webp" alt="Logo"></div>
+
                 </h1>
                 <h1>لتفصيل المطابخ</h1>
 
                 <div class="calendar-icon-and-date">
-                    <a onclick="return gtag_report_conversion('tel:966506581346');" href="tel:966506581346">
+                    <a title="contact-link" onclick="return gtag_report_conversion('tel:966506581346');"
+                        href="tel:966506581346">
                         <div style="background-color: transparent;
                     background-image: linear-gradient(180deg, #FF0000 0%, #27000A 100%);
                     border-radius: 60px 60px 60px 60px;" class="whats-app-contact-button register-button"
                             role="button">
                             <span>اتصل بنا</span>
-                            <img class="wts-img" src="./images/phone.webp" alt="wts">
+                            <img loading="lazy" class="wts-img" src="./images/phone.webp" alt="wts">
 
 
 
                         </div>
                     </a>
-                    <a onclick="return gtag_report_conversion('tel:966538961286');" href="tel:966538961286">
+                    <a title="contact-link" onclick="return gtag_report_conversion('tel:966538961286');"
+                        href="tel:966538961286">
                         <div style="background-color: transparent;
                     background-image: linear-gradient(180deg, #FF0000 0%, #27000A 100%);
                     border-radius: 60px 60px 60px 60px;" class="whats-app-contact-button register-button"
                             role="button">
                             <span>اتصل بنا</span>
-                            <img class="wts-img" src="./images/phone.webp" alt="wts">
+                            <img loading="lazy" class="wts-img" src="./images/phone.webp" alt="wts">
 
 
 
                         </div>
                     </a>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="whats-app-contact-button register-button" role="button">
                             <span>واتس اب</span>
-                            <img class="wts-img" src="./images/wtsapp.webp" alt="wts">
+                            <img loading="lazy" class="wts-img" src="./images/wtsapp.webp" alt="wts">
 
                         </div>
                     </a>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966538961286');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966538961286');"
                         href="https://wa.me/+966538961286">
                         <div class="whats-app-contact-button register-button" role="button">
                             <span>واتس اب</span>
-                            <img class="wts-img" src="./images/wtsapp.webp" alt="wts">
+                            <img loading="lazy" class="wts-img" src="./images/wtsapp.webp" alt="wts">
 
                         </div>
                     </a>
@@ -159,11 +137,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         <div class="container">
             <div class="sub-container">
 
-                <img class="map-img" src="./images/logo.webp" alt="map">
-                <h5 class="p-about-the-event desc">خدمات تركيب وتفصيل المطابخ الاحترافية والحديثة ، خدمات متكاملة من
+                <div><img loading="lazy" class="map-img" src="./images/logo.webp" alt="map"></div>
+                <span class="p-about-the-event desc">خدمات تركيب وتفصيل المطابخ الاحترافية والحديثة ، خدمات متكاملة من
                     التصميم والتركيب والديكور والتشطيب ، مطابخ عصرية وعملية تحقق كل احتياجاتكم
-                </h5>
-                <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                </span>
+                <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                     href="https://wa.me/+966506581346">
                     <div class="contact-button register-button" role="button">
                         اطلب الان
@@ -171,7 +149,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 </a>
             </div>
             <div class="sub-container">
-                <img class="map-img" src="./images/1.webp" alt="map">
+                <img loading="lazy" class="map-img" src="./images/1.webp" alt="map">
             </div>
 
         </div>
@@ -186,11 +164,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 <p class="change-your-kit"> احدث التصميمات</p>
 
                 <p style="font-size: 30px;">تواصل معنا من خلال الارقام التاليه واتس او اتصال</p>
-                <a onclick="return gtag_report_conversion('tel:966538961286');" style="font-size: 30px;"
-                    href="tel:966538961286">966538961286+</a>
-                <a onclick="return gtag_report_conversion('tel:966506581346');" style="font-size: 30px;"
-                    href="tel:966506581346">966506581346+</a>
-                <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                <a title="contact-link" onclick="return gtag_report_conversion('tel:966538961286');"
+                    style="font-size: 30px;" href="tel:966538961286">966538961286+</a>
+                <a title="contact-link" onclick="return gtag_report_conversion('tel:966506581346');"
+                    style="font-size: 30px;" href="tel:966506581346">966506581346+</a>
+                <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                     href="https://wa.me/+966506581346">
                     <div class="contact-button register-button" role="button">
                         تواصل معنا الان
@@ -212,11 +190,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             </div>
             <div class="sub-container">
                 <div class="card">
-                    <img src="./images/kit1.webp" alt="">
+                    <img loading="lazy" src="./images/kit1.webp" alt="kit">
 
                     <h3>مطابخ كلادينج </h3>
                     <span>مطابخ كلادينج متعددة الأشكال والألوان مقاومة للرطوبة وغير قابلة للصدأ </span>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="contact-button register-button" role="button">
                             اطلب الان
@@ -224,11 +202,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     </a>
                 </div>
                 <div class="card">
-                    <img src="./images/kit2.webp" alt="">
+                    <img loading="lazy" src="./images/kit2.webp" alt="kit">
 
                     <h3>مطابخ صاج </h3>
                     <span>مطابخ الصاج الانيقة مقاومة للصدأ وشديدة التحمل</span>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="contact-button register-button" role="button">
                             اطلب الان
@@ -236,11 +214,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     </a>
                 </div>
                 <div class="card">
-                    <img src="./images/kit3.webp" alt="">
+                    <img loading="lazy" src="./images/kit3.webp" alt="kit">
 
                     <h3>مطابخ إيطالية</h3>
                     <span>مطابخ إيطالية موديلات حديثة وبأسعار تنافسية مناسبة </span>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="contact-button register-button" role="button">
                             اطلب الان
@@ -248,13 +226,13 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     </a>
                 </div>
                 <div class="card">
-                    <img src="./images/kit4.webp" alt="">
+                    <img loading="lazy" src="./images/kit4.webp" alt="kit">
 
                     <h3>مطابخ ألمانية
                     </h3>
                     <span>مطابخ ألمانية بميزات مبتكرة بسيطة وأنيقة تساعدك على تحقيق أقصى استفادة من مساحة مطبخك
                     </span>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="contact-button register-button" role="button">
                             اطلب الان
@@ -263,13 +241,13 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 </div>
 
                 <div class="card">
-                    <img src="./images/kit6.webp" alt="">
+                    <img loading="lazy" src="./images/kit6.webp" alt="kit">
 
                     <h3>مغاسل الرخام
                     </h3>
                     <span>أفضل وافخم أنواع المغاسل الرخامية للمطابخ مقاومة للامتصاص والتبقع تشكيلة أنيقة وألوان
                         متعددة </span>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="contact-button register-button" role="button">
                             اطلب الان
@@ -277,14 +255,14 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     </a>
                 </div>
                 <div class="card">
-                    <img src="./images/kit7.webp" alt="">
+                    <img loading="lazy" src="./images/kit7.webp" alt="kit">
 
                     <h3>شفاطات مطابخ
                     </h3>
                     <span>شفاطات مطابخ قوية شفاطات مطابخ دون تمديد
 
                     </span>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="contact-button register-button" role="button">
                             اطلب الان
@@ -292,14 +270,14 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                     </a>
                 </div>
                 <div class="card">
-                    <img src="./images/kit8.webp" alt="">
+                    <img loading="lazy" src="./images/kit8.webp" alt="kit">
 
                     <h3>بلاط مطابخ
                     </h3>
                     <span>بلاط المطابخ مطابخ قوية شفاطات مطابخ دون تمديد
 
                     </span>
-                    <a onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
+                    <a title="contact-link" onclick="return gtag_report_conversion('https://wa.me/+966506581346');"
                         href="https://wa.me/+966506581346">
                         <div class="contact-button register-button" role="button">
                             اطلب الان
@@ -321,7 +299,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="sub-container">
                 <div class="card">
                     <div class="img-container">
-                        <img src="./images/logo.webp" alt="">
+                        <div> <img loading="lazy" src="./images/logo.webp" alt="kit"></div>
                     </div>
                     <div class="text-container">
                         <h3>يتوفر جميع انواع الرخام
@@ -348,30 +326,30 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="sub-container">
                 <div id="xy" class="stakeholders">
                     <div class="stakeholder-card ">
-                        <img src="./images/modi (1).webp" alt="">
+                        <img loading="lazy" src="./images/modi (1).webp" alt="kit">
 
                     </div>
                     <div class="stakeholder-card">
-                        <img src="./images/modi (2).webp" alt="">
+                        <img loading="lazy" src="./images/modi (2).webp" alt="kit">
 
                     </div>
                     <div class="stakeholder-card">
-                        <img src="./images/modi (3).webp" alt="">
+                        <img loading="lazy" src="./images/modi (3).webp" alt="kit">
                     </div>
                     <div class="stakeholder-card">
-                        <img src="./images/modi (4).webp" alt="">
+                        <img loading="lazy" src="./images/modi (4).webp" alt="kit">
                     </div>
                     <div class="stakeholder-card">
-                        <img src="./images/modi (5).webp" alt="">
+                        <img loading="lazy" src="./images/modi (5).webp" alt="kit">
                     </div>
                     <div class="stakeholder-card">
-                        <img src="./images/modi (6).webp" alt="">
+                        <img loading="lazy" src="./images/modi (6).webp" alt="kit">
                     </div>
                     <div class="stakeholder-card">
-                        <img src="./images/modi (1).webp" alt="">
+                        <img loading="lazy" src="./images/modi (1).webp" alt="kit">
                     </div>
                     <div class="stakeholder-card">
-                        <img src="./images/modi (2).webp" alt="">
+                        <img loading="lazy" src="./images/modi (2).webp" alt="kit">
                     </div>
 
 
@@ -380,8 +358,10 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
                 </div>
                 <div class="navi">
-                    <img class="arrow left-arrow-s" src="./images/rigth-arrow.webp" alt="">
-                    <img class="arrow right-arrow-s" src="./images/left-arrow.webp" alt="">
+                    <div> <img loading="lazy" class="arrow left-arrow-s" src="./images/rigth-arrow.webp" alt="kit">
+                    </div>
+                    <div> <img loading="lazy" class="arrow right-arrow-s" src="./images/left-arrow.webp" alt="kit">
+                    </div>
                 </div>
             </div>
 
@@ -395,17 +375,17 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="sub-container">
                 <h2 style="color: white;" class="special-heading">تقييمات بعض عملائنا</h2>
             </div>
-            <a target="_blank"
+            <a title="map-link" target="_blank"
                 href="https://www.google.com/maps/place/%D8%A7%D8%AE%D8%B1+%D8%B5%D9%8A%D8%AD%D8%A9+%D9%84%D9%84%D9%85%D8%B7%D8%A7%D8%A8%D8%AE+%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9%E2%80%AD/@24.5706513,46.7454459,17z/data=!4m8!3m7!1s0x3e2f0f6486697051:0xdcd159f24c8694f0!8m2!3d24.5706513!4d46.7454459!9m1!1b1!16s%2Fg%2F11svhmgqjp?entry=ttu">
                 <div class="sub-container fdbkmain">
                     <div class="fdbkcontainer">
-                        <img src="./images/fdbck (1).webp" alt="">
+                        <img loading="lazy" src="./images/fdbck (1).webp" alt="kit">
                     </div>
                     <div class="fdbkcontainer">
-                        <img src="./images/fdbck (2).webp" alt="">
+                        <img loading="lazy" src="./images/fdbck (2).webp" alt="kit">
                     </div>
                     <div class="fdbkcontainer">
-                        <img src="./images/fdbck (3).webp" alt="">
+                        <img loading="lazy" src="./images/fdbck (3).webp" alt="kit">
                     </div>
                 </div>
         </div>
@@ -416,11 +396,13 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 
             <div class="sub-container ">
-                <h4>تواصل معنا</h4>
+                <span>تواصل معنا</span>
                 <ul>
-                    <li>Phone number:<a onclick="return gtag_report_conversion('tel:+966538961286');"
+                    <li>Phone number:<a title="contact-link"
+                            onclick="return gtag_report_conversion('tel:+966538961286');"
                             href="tel:+966538961286">966538961286</a>
-                    <li>Phone number:<a onclick="return gtag_report_conversion('tel:+966506581346');"
+                    <li>Phone number:<a title="contact-link"
+                            onclick="return gtag_report_conversion('tel:+966506581346');"
                             href="tel:+966506581346">966506581346</a>
                         <br>
                         <br>
@@ -429,13 +411,13 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                 </ul>
             </div>
             <div class="sub-container google-map">
-                <h4>المكان على الخريطة</h4>
+                <span>المكان على الخريطة</span>
                 <ul>
                     <li>
 
                         <div class="sub-container">
-                            <a href="https://maps.app.goo.gl/6NXSUGw7AF43GZEU6" target="_blank">
-                                <iframe
+                            <a title="map-link" href="https://maps.app.goo.gl/6NXSUGw7AF43GZEU6" target="_blank">
+                                <iframe title="map"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.5371668260536!2d46.7454459!3d24.570651299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0f6486697051%3A0xdcd159f24c8694f0!2z2KfYrtixINi12YrYrdipINmE2YTZhdi32KfYqNiuINin2YTYrdiv2YrYq9ip!5e0!3m2!1sar!2seg!4v1697112918269!5m2!1sar!2seg"
                                     width="320" height="320" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -454,7 +436,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
             <div class="sub-container">
 
-                <p><a href="https://wa.me/+201555497530" target="_blank">
+                <p><a title="contact-link" href="https://wa.me/+201555497530" target="_blank">
                         للتواصل مع المطور</a></p>
 
             </div>
