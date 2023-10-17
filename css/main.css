@@ -501,20 +501,7 @@ body .header img {
 
 
 
-.panel-discuss .container .card .img-container {
-    display: flex;
-    justify-content: center;
-    padding-top: 18px;
-    background-color: var(--main-1-color);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 
-}
 
 
 
