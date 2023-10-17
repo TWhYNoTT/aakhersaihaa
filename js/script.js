@@ -79,7 +79,6 @@ window.addEventListener("load", () => {
 
 
     function handleTouchStarts(event) {
-        event.preventDefault();
         startX = event.touches[0].pageX;
     }
 
@@ -126,9 +125,10 @@ window.addEventListener("load", () => {
     setActiveCards();
     leftArrows.addEventListener('click', scrollLefts);
     rightArrows.addEventListener('click', scrollRights);
-    stakeEvents.addEventListener('touchstart', handleTouchStarts);
-    stakeEvents.addEventListener('touchmove', handleTouchMoves);
-    stakeEvents.addEventListener('touchend', handleTouchEnds);
+    stakeEvents.addEventListener('touchstart', handleTouchStarts, { passive: true });
+    stakeEvents.addEventListener('touchmove', handleTouchMoves, { passive: true });
+    stakeEvents.addEventListener('touchend', handleTouchEnds, { passive: true });
+
 
 
 
