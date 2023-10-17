@@ -1,0 +1,32 @@
+{
+    "name": "اخر صيحه لتفصيل المطابخ",
+    "short_name": "اخر صيحه",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0078d4",
+    "description": "آخر صيحه لتفصيل للمطابخ    كل ماهو جديد في عالم المطابخ الحديثه احدث التصميمات والاكسسورات الايطالية باسعار خارج المنافسه مكسبنا هو ثقتكم داعين الله عز وجل انا يجعلنا عند حسن ظنكم تفصل مطابخ وخزائن دواليب. احدث التصميمات",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.webp",
+            "sizes": "192x192",
+            "type": "image/webp"
+        },
+        {
+            "src": "/images/android-chrome-512x512.webp",
+            "sizes": "512x512",
+            "type": "image/webp"
+        },
+        {
+            "src": "/images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/android-chrome-512x512.webp",
+            "sizes": "512x512",
+            "type": "image/webp",
+            "purpose": "maskable"
+        }
+    ]
+}
