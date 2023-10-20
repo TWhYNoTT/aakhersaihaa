@@ -464,7 +464,8 @@ body {
 
 .key-themes .container .card span,
 .panel-discuss .container .card span,
-.event-details p {
+.event-details p,
+.key-themes .container .card h4 {
     font-size: 18px;
     font-weight: 400;
     font-family: var(--roboto-font);
